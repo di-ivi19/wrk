@@ -1,0 +1,7 @@
+name: Call Reusable Workflow
+
+on: [push]
+
+jobs:
+  call-deploy:
+    uses: ./.github/workflows/demo.yaml  
